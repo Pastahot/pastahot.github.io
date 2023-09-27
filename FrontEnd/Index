@@ -12,8 +12,7 @@
 <body>
     <header class="py-2"> <!-- Reduced padding -->
         <div class="container">
-            <h1 class="display-5">Your Name</h1> <!-- Adjusted font size -->
-            <p class="lead">Web Developer</p>
+            <h1 class="display-5">pastahot</h1> <!-- Adjusted font size -->
         </div>
     </header>
 
@@ -97,7 +96,7 @@
 
     <footer class="py-5">
         <div class="container">
-            <p class="lead">&copy; 2023 Your Name. All Rights Reserved.</p>
+            <p class="lead">&copy; 2023 pastahot. All Rights Reserved.</p>
         </div>
     </footer>
 
