@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Futuristic Portfolio</title>
+    <!-- Add Bootstrap CSS CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link to your custom styles.css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="py-2"> <!-- Reduced padding -->
+        <div class="container">
+            <h1 class="display-5">Your Name</h1> <!-- Adjusted font size -->
+            <p class="lead">Web Developer</p>
+        </div>
+    </header>
+
+    <section class="py-4">
+        <div class="container">
+            <h2 class="display-4 mb-4">Projects</h2>
+
+            <div class="row">
+                <div class="col-md-4 project fade-in">
+                    <div class="card">
+                        <img src="assets/project1.jpg" class="card-img-top" alt="Project 1 Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 1</h3>
+                            <p class="card-text">Description of Project 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="https://github.com/your-username/project1" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 project fade-in">
+                    <div class="card">
+                        <img src="assets/project2.jpg" class="card-img-top" alt="Project 2 Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 2</h3>
+                            <p class="card-text">Description of Project 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <a href="https://github.com/your-username/project2" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 project fade-in">
+                    <div class="card">
+                        <img src="assets/project3.jpg" class="card-img-top" alt="Project 3 Image">
+                        <div class="card-body">
+                            <h3 class="card-title">Project 3</h3>
+                            <p class="card-text">
+                                Description of Project 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#project3-details">Details</button>
+                                <div id="project3-details" class="collapse">
+                                    Additional details about Project 3. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                            </p>
+                            <a href="https://github.com/your-username/project3" class="btn btn-primary" target="_blank">GitHub Repository</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="py-4">
+        <div class="container">
+            <h2 class="display-4 mb-4">Skills</h2>
+            <p class="lead slide-in">
+                HTML, CSS, JavaScript, React, Node.js, Git, GitHub, etc.
+            </p>
+        </div>
+    </section>
+
+    <section class="py-4">
+        <div class="container">
+            <h2 class="display-4 mb-4">Contact</h2>
+            <form class="fade-in">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <p class="lead">&copy; 2023 Your Name. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+ <!-- Add Bootstrap JS and Popper.js CDN -->
+ <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
